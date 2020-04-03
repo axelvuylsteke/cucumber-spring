@@ -1,12 +1,12 @@
 package be.shapeandshift.testing.cucumberspring.steps;
 
-import be.shapeandshift.testing.cucumberspring.CucumberSpringApplicationTests;
+import be.shapeandshift.testing.cucumberspring.CucumberSpringApplicationTestSetup;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-public class PeopleSteps extends CucumberSpringApplicationTests {
+public class PeopleSteps extends CucumberSpringApplicationTestSetup {
 
     @Given("^I set my parameters1$")
     public void setParameters1() {
